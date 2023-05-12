@@ -1,0 +1,135 @@
+.side-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f0eeee;
+}
+
+.side-bar-profile{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar-logo{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.logo{
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.logo:hover, .text-logo:hover{
+    cursor: pointer;
+}
+
+.text-logo{
+    height: 70px;
+}
+
+.side-profile{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.wrapper-profile{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, rgba(255,230, 0), rgba(255, 0, 128) 80%);
+
+}
+
+.wrapper-profile img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+
+}
+
+.wrapper-profile img:hover{
+    cursor: pointer;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 6px;
+}
+
+.id-name{
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.status-profile{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.posts, .followers, .following{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.posts-number{
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.posts-text{
+    font-size: 16px;
+}
+
+.side-bar-nav{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-nav-icon{
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wrapper-nav-icon img{
+    height: 50%;
+    margin-left: 20px;
+    margin-right: 15px;
+    padding: 2px;
+}
+
+.wrapper-nav-icon:hover div{
+    flex: 1;
+    color: rgb(240, 116, 137);
+    border-right: 3px solid rgb(240, 116, 137);
+    cursor: pointer;
+}

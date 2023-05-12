@@ -1,0 +1,38 @@
+.header-stories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stories-text{
+    flex: 0 0 auto;
+    width: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.watching{
+    flex: 0 0 auto;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.watching img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.watching:hover {
+    background-color: #dfdfdf;
+}

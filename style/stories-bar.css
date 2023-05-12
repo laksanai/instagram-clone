@@ -1,0 +1,27 @@
+.stories-bar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+.wrapper-profile{
+    flex: 0 0 auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, rgba(255,230, 0), rgba(255, 0, 128) 80%);
+    margin-left: 20px;
+    padding: 3px;
+}
+
+.wrapper-profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+}
