@@ -46,18 +46,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
 
-.wrapper-profile{
+.side-wrapper-profile{
     width: 80px;
     height: 80px;
     border-radius: 50%;
     background: linear-gradient(45deg, rgba(255,230, 0), rgba(255, 0, 128) 80%);
-
+    padding: 3px;
 }
 
-.wrapper-profile img{
+.side-wrapper-profile img{
     height: 100%;
     width: 100%;
     border-radius: 50%;
