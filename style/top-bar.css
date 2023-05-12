@@ -10,6 +10,7 @@
     margin-left: 300px;
     background-color: white;
     border-bottom: 2px solid #dfdfdf;
+    z-index: 1;
 }
 
 .left-box{
